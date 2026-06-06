@@ -3,27 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TwoDev - Modern Web Development Agency</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Botakers</div>
-
+            <div class="logo">TwoDev</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#team">Team</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            
-            <div class="menu-btn" id="menu-btn">
+            <a href="#contact" class="btn btn-primary nav-cta">Start Project</a>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </nav>
     </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">Build smarter products</p>
+                <h1>Designing modern websites and apps for ambitious teams.</h1>
+                <p class="hero-text">TwoDev creates pixel-perfect digital experiences with clean code, fast performance, and a focus on growth.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Let’s talk</a>
+                    <a href="#work" class="btn btn-secondary">See our work</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <article class="stat-card">
+                    <h2>250+</h2>
+                    <p>Websites launched</p>
+                </article>
+                <article class="stat-card">
+                    <h2>98%</h2>
+                    <p>Client satisfaction</p>
+                </article>
+                <article class="stat-card">
+                    <h2>24h</h2>
+                    <p>Support response</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-grid">
+                <div>
+                    <span class="section-label">About TwoDev</span>
+                    <h2>We help brands launch efficient digital products.</h2>
+                    <p>With expertise in front-end, UI/UX, and performance optimization, TwoDev delivers flexible solutions for startups, agencies, and growing businesses.</p>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>Fast development</h3>
+                        <p>Build responsive landing pages and full platforms with clean, maintainable code.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Modern design</h3>
+                        <p>Create interfaces that feel polished, intuitive, and conversion-focused.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Product strategy</h3>
+                        <p>Turn ideas into prioritized roadmaps with a focus on user value and business impact.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="services">
+            <div class="section-header">
+                <span class="section-label">Services</span>
+                <h2>What we do best</h2>
+            </div>
+            <div class="service-grid">
+                <article class="service-card">
+                    <h3>Website development</h3>
+                    <p>Responsive front-end development for fast, accessible websites that scale.</p>
+                </article>
+                <article class="service-card">
+                    <h3>UI/UX design</h3>
+                    <p>Design systems and interaction design crafted to simplify user journeys.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Landing pages</h3>
+                    <p>High-converting landing pages with clear messaging and strong calls to action.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Performance tuning</h3>
+                    <p>Speed improvements with optimized assets, caching, and minimal bundle sizes.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="work">
+            <div class="section-header">
+                <span class="section-label">Projects</span>
+                <h2>Recent launches</h2>
+            </div>
+            <div class="work-grid">
+                <article class="work-card">
+                    <h3>Startup branding site</h3>
+                    <p>Fast, modern site for a B2B SaaS launch with a conversion-first homepage.</p>
+                </article>
+                <article class="work-card">
+                    <h3>Marketing landing page</h3>
+                    <p>Engaging layout with data-driven copy and mobile-ready interactions.</p>
+                </article>
+                <article class="work-card">
+                    <h3>Product dashboard</h3>
+                    <p>Clean interface for internal tools with an emphasis on usability and clarity.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="section-grid contact-grid">
+                <div>
+                    <span class="section-label">Contact</span>
+                    <h2>Ready to build your next product?</h2>
+                    <p>Send a message and we’ll partner with you to bring your vision to life quickly and reliably.</p>
+                </div>
+                <div class="contact-card">
+                    <p>Email</p>
+                    <a href="mailto:hello@twodev.com">hello@twodev.com</a>
+                    <p>Phone</p>
+                    <a href="tel:+1234567890">+1 (234) 567-890</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>© 2026 TwoDev. Built for modern teams.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
