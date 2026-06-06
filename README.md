@@ -24,7 +24,7 @@ https://twodev.netlify.app
 
 ├── index.html
 ├── style.css
-└── README.md
+|── README.md
 
 ## 👨‍💻 Tim Pengembang
 
