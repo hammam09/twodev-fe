@@ -41,4 +41,4 @@ Jika Anda memiliki pertanyaan, saran, atau ingin bekerja sama, silakan hubungi k
 
 ## 📄 Lisensi
 
-Proyek ini dibuat untuk tujuan pembelajaran, pengembangan keterampilan, dan portofolio.
+Proyek ini dibuat untuk tujuan pembelajaran, pengembangan keterampilan, portofolio dan tugas pekan 1.
