@@ -415,8 +415,29 @@ footer{
         display:flex;
     }
 
-    .nav-links{
+    /* .nav-links{
         display:none;
+    } */
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: 0.3s ease;
+        background-color: #0b1020;
+    }
+
+    .nav-links.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
     }
 
     .nav-cta{
